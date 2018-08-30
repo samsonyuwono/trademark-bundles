@@ -1,4 +1,15 @@
 /*SY 8/30/2018 Added CSS for cart */
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 79em;
+}
+.row {
+  max-width: none !important;
+  min-width: auto !important;
+  width: auto !important;
+}
 .row .row {
   width: auto !important;
   max-width: none !important;
@@ -10,6 +21,10 @@
 
 .line-item .remove-from-cart {
   margin-right: -2.5em !important;
+}
+
+form#cartform{
+  margin-left: 54px;
 }
 
 .columns img {
@@ -31,7 +46,7 @@
 .empty {
   font-family: Montserrat, Helvetica, Arial, sans-serif !important;
   font-size: 17px;
-  margin: 1% 0 0 7%;
+  margin: 1% 0 0 3%;
   font-weight: 100;
   line-height: 1.6;
   display: inline-block;
