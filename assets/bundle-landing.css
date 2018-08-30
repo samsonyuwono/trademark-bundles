@@ -761,6 +761,11 @@ button.slick-next{
   color: #5570A1 !important;
   }
 
+  .columns #state-label h3 {
+    color: #3743a1;
+    font-size: 1.3125rem;
+    margin-bottom: 33px;
+  }
 
   /*   hides header nav for ipad
    */
