@@ -16,6 +16,43 @@
   line-height: 1.6;
 }
 
+.line-items {
+  margin: 4%;
+}
+.column, .columns {
+  position: relative;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+.columns a {
+  color: #8dabdd;
+}
+
+.columns .variant {
+   color: #aea8a8;
+}
+
+.columns .price {
+  text-align: right;
+  color: #4e4949;
+  padding: 0 .75rem;
+  font-family: Arial sans-serif;
+  font-weight: lighter;
+}
+
+.button.large, button.large {
+    color: red;
+    background-color: blue;
+}
+
+.page-header {
+  border-bottom-style: none !important;
+}
+
+.line-item {
+  border-bottom-style: none !important;
+}
+
+
 /*For pop-up app*/
 .tabarnapp__title{
   display: none !important;
