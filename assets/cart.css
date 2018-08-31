@@ -39,7 +39,7 @@ form#cartform{
   font-family: Montserrat, Helvetica, Arial, sans-serif !important;
   font-size: 33px;
   font-weight: 100;
-  margin: 3% 0 0 2%;
+  margin-left: 4%;
   display: inline-block;
 }
 
@@ -53,7 +53,7 @@ form#cartform{
 }
 
 .line-item a.title{
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 100 !important;
 }
 
@@ -144,9 +144,13 @@ form#cartform{
   border-radius: 5px !important;
   display: inline-block;
   padding: 0 3px !important;
-  min-width: 203px !important;
+  min-width: 180px !important;
   line-height: 32px !important;
   text-align: center !important;
+}
+
+.line-item .quantity input {
+  max-width: 4.625rem !important;
 }
 /*For pop-up app*/
 .tabarnapp__title{
@@ -327,9 +331,9 @@ img.pop-up-x{
   right: 0;
 }
 label.check-text{
-  /*width: 70%;*/
   margin-left: 0 !important;
   color: #aea8a8 !important;
+  font-weight: 100 !important;
 }
 .exinfo{
   display: none;
@@ -426,7 +430,7 @@ input.ex-war-check{
   }
   label.check-text{
     width: 70%;
-  margin-left: 0 !important;
+    margin-left: 0 !important;
   }
   input.ex-war-check{
     position: relative;

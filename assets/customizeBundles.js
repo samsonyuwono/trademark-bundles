@@ -119,7 +119,7 @@ if (window.location.href.indexOf("productbuilder") > -1) {
     $('#step_header_1').nextAll().addClass('future-color-step');
     $('#step_header_1').nextAll().children('.arrow').addClass('future-color-step');
 
-    $('.steps_body').css('height', '500px');
+    $('.steps_body').css('cssText', 'height: 600px !important;' + 'overflow-y: hidden !important;');
 
 
 
@@ -221,10 +221,13 @@ if (window.location.href.indexOf("productbuilder") > -1) {
 
         //makes the body that holds the options larger
         $('.steps_body').css('cssText', 'height: 830px !important;' + 'overflow-y: hidden !important;');
+        // $('.steps_body').css('height', '830px'); //commented out sidebar that doesn't scroll
         $('.option_image_pane').css('height', '800px');
 
         //makes the nav buttons lower down on the page, originally top:-150px
-        $('#navigation_buttons').css('top', '-4px');
+        $('#navigation_buttons').css('top', '40px');
+        $('#navigation_buttons').css('margin-bottom', '100px');
+
 
         // nav arrow color adjustments
         $('#step_header_2').removeClass('future-color-step');
@@ -327,7 +330,7 @@ if (window.location.href.indexOf("productbuilder") > -1) {
         $('.steps_body').css('overflow-y', 'scroll');
 
         //for step 4, move navigation button up and make main container shorter
-        $('#navigation_buttons').css('top', '-5px');
+        $('#navigation_buttons').css('top', '40px');
 
         //disables navigation blocker that didn't allow user to go on to next step
         $('#step_header_5').removeClass('future');
@@ -359,8 +362,8 @@ if (window.location.href.indexOf("productbuilder") > -1) {
         $('.option_image_pane').hide();
 
         //for step 5, move navigation button up and make main container shorter
-        $('#navigation_buttons').css('top', '-50px');
-        $('.steps_body').css('height', '420px');
+        $('#navigation_buttons').css('top', '-20px');
+        $('.steps_body').css('cssText', 'height: 470px !important;' + 'overflow-y: hidden !important;');
         //hides checkout button
         $("button.btn.btn-success:contains('Proceed to Checkout >')").hide();
 
