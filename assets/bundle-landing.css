@@ -1287,7 +1287,7 @@ i.bundle-arrow {
   display: none;
 }
 
-@media only screen and (min-width: 2800px){
+/* @media only screen and (min-width: 2800px){
   .banner-holder{
       width: 45%;
       margin-left: 27%;
@@ -1346,7 +1346,7 @@ i.bundle-arrow {
 
 @media only screen and (min-width: 2200px) and (max-width: 2400px){
   .banner-holder{
-      width: 63%;
+      width: 61%;
       margin-left: 21%;
   }
   #seven-img-link-container {
@@ -1364,11 +1364,6 @@ i.bundle-arrow {
 }
 
 
-@media only screen and (min-width: 2000px){
-  /* #ns-title-holder{
-    margin-left: 15%;
-  } */
-}
 
 @media only screen and (min-width: 2000px) and (max-width: 2200px){
   .banner-holder{
@@ -1376,19 +1371,19 @@ i.bundle-arrow {
       margin-left: 19%;
   }
   #seven-img-link-container {
-    margin-left: 18%
+    margin-left: 19%
   }
   #eight-img-link-container{
-    margin-left: 18%;
+    margin-left: 19%;
   }
   #nine-img-link-container{
-    margin-left: 18%;
+    margin-left: 19%;
   }
   #fifteen-img-link-container{
-    margin-left: 18%;
+    margin-left: 19%;
   }
 }
-å
+
 
 @media only screen and (min-width: 1800px) and (max-width: 2000px){
   .banner-holder{
@@ -1396,19 +1391,71 @@ i.bundle-arrow {
     margin-left: 13%;
   }
   #seven-img-link-container {
-    margin-left: 13%
+    margin-left: 14%
   }
   #eight-img-link-container{
-    margin-left: 13%;
+    margin-left: 14%;
   }
   #nine-img-link-container{
-    margin-left: 13%;
+    margin-left: 14%;
   }
   #fifteen-img-link-container{
-    margin-left: 13%;
+    margin-left: 14%;
+  }
+
+} */
+
+@media only screen and (min-width: 1800px){
+  i.right-new{
+    padding: 31px;
+  }
+  .arrow-container-left{
+    left: -68px;
+  }
+  .arrow-container-right{
+    left: 1267px;
+  }
+
+  .banner-holder{
+    position: relative;
+    width: 71em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #seven-img-link-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 71em;
+  }
+  #eight-img-link-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 71em;
+  }
+  #nine-img-link-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 71em;
+  }
+  #fifteen-img-link-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 71em;
+  }
+}
+
+
+@media only screen and (min-width: 1750px) and (max-width: 1800px){
+  .banner-holder{
+    width: 94% !important;
+  }
+
+  .arrow-container-right{
+    right: 118px !important;
   }
 
 }
+
 
 @media only screen and (min-width: 1800px){
   i.right-new{
@@ -1446,7 +1493,6 @@ i.bundle-arrow {
   .arrow-container-left h6 {
     font-size: 87%;
   }
-
   .arrow-container-right h6 {
     font-size: 87%;
   }
