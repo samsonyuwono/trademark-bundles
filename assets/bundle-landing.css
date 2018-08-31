@@ -363,9 +363,6 @@ header.page-header{
 
 }
 
-
-
-
 /*end of header section*/
 
 /*beginning of Nursery Set Section w/ image rotators*/
@@ -517,15 +514,11 @@ button.slick-next{
 }
 .ns-link{
   color: #58595b !important;
-  /*text-decoration: underline;*/
-  /*display: none;*/
 }
-
-
 
   @media only screen and (max-width: 1400px){
     .arrow-container-right{
-    right: 0px !important;
+    right: -12px !important;
     z-index: 2;
     background: rgba(192,192,192, 0.5);
     padding-top: 0 !important;
@@ -1053,14 +1046,14 @@ i.bundle-arrow {
 .arrow-container-right{
   position: absolute;
   display: inline;
-  right: -60px;
+  right: 29px;
   top: 45px;
   cursor: pointer;
 }
 .arrow-container-left{
   position: absolute;
   display: inline;
-  left: -60px;
+  left: 0;
   top: 45px;
   cursor: pointer;
 }
@@ -1353,7 +1346,7 @@ i.bundle-arrow {
 
 @media only screen and (min-width: 2200px) and (max-width: 2400px){
   .banner-holder{
-      width: 60%;
+      width: 63%;
       margin-left: 21%;
   }
   #seven-img-link-container {
@@ -1379,7 +1372,7 @@ i.bundle-arrow {
 
 @media only screen and (min-width: 2000px) and (max-width: 2200px){
   .banner-holder{
-      width: 65%;
+      width: 68%;
       margin-left: 19%;
   }
   #seven-img-link-container {
@@ -1395,95 +1388,7 @@ i.bundle-arrow {
     margin-left: 18%;
   }
 }
-/*start of responsiveness for right arrow- This needs to be fixed. */
-
-@media only screen and (min-width: 2900px) and (max-width: 3000px){
-  .arrow-container-right{
-    right: 35%;
-  }
-}
-@media only screen and (min-width: 2800px) and (max-width: 2900px){
-  .arrow-container-right{
-    right: 32%;
-  }
-}
-
-@media only screen and (min-width: 2700px) and (max-width: 2800px){
-  .arrow-container-right{
-    right: 31%;
-  }
-}
-
-@media only screen and (min-width: 2600px) and (max-width: 2700px){
-  .arrow-container-right{
-    right: 28%;
-  }
-}
-
-@media only screen and (min-width: 2500px) and (max-width: 2600px){
-  .arrow-container-right{
-    right: 26%;
-  }
-}
-@media only screen and (min-width: 2400px) and (max-width: 2500px){
-  .arrow-container-right{
-    right: 22%;
-  }
-}
-@media only screen and (min-width: 2300px) and (max-width: 2400px){
-  .arrow-container-right{
-    right: 18%;
-  }
-}
-@media only screen and (min-width: 2200px) and (max-width: 2300px){
-  .arrow-container-right{
-    right: 18%;
-  }
-}
-@media only screen and (min-width: 2100px) and (max-width: 2200px){
-  .arrow-container-right{
-    right: 19%;
-  }
-}
-@media only screen and (min-width: 2000px) and (max-width: 2100px){
-  .arrow-container-right{
-    right: 12%;
-  }
-}
-@media only screen and (min-width: 1900px) and (max-width: 2000px){
-  .arrow-container-right{
-    right: 11%;
-  }
-}
-@media only screen and (min-width: 1800px) and (max-width: 1900px){
-  .arrow-container-right{
-    right: 9.5%;
-  }
-}
-
-@media only screen and (min-width: 1700px) and (max-width: 1800px){
-  .arrow-container-right{
-    right: 6.5%;
-  }
-}
-@media only screen and (min-width: 1600px) and (max-width: 1700px){
-  .arrow-container-right{
-    right: 3.5%;
-  }
-}
-
-@media only screen and (min-width: 1500px) and (max-width: 1600px){
-  .arrow-container-right{
-    right: 3%;
-  }
-}
-@media only screen and (min-width: 1400px) and (max-width: 1500px){
-  .arrow-container-right{
-    right: 2%;
-  }
-}
-
-/*end responsiveness for right slideshow arrow */
+å
 
 @media only screen and (min-width: 1800px) and (max-width: 2000px){
   .banner-holder{
@@ -1502,31 +1407,38 @@ i.bundle-arrow {
   #fifteen-img-link-container{
     margin-left: 13%;
   }
+
 }
 
 @media only screen and (min-width: 1800px){
   i.right-new{
     padding: 31px;
   }
+  .arrow-container-left{
+    left: -68px;
+  }
+  .arrow-container-right{
+    left: 1267px;
+  }
 }
 
 
-@media only screen and (max-width: 1800px) and (min-width: 1400px){
+@media only screen and (min-width: 1400px) and (max-width: 1800px){
   #twenty-off-form{
     width: 50%;
     left: 25%;
   }
   #seven-img-link-container {
-    margin-left: 2%
+    margin-left: 3%
   }
   #eight-img-link-container{
-    margin-left: 2%;
+    margin-left: 3%;
   }
   #nine-img-link-container{
-    margin-left: 2%;
+    margin-left: 3%;
   }
   #fifteen-img-link-container{
-    margin-left: 2%;
+    margin-left: 3%;
   }
   .arrow-container-left{
     left: 2%;

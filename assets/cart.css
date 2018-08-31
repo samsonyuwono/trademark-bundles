@@ -46,7 +46,7 @@ form#cartform{
 .empty {
   font-family: Montserrat, Helvetica, Arial, sans-serif !important;
   font-size: 17px;
-  margin: 1% 0 0 3%;
+  margin-left: 6%;
   font-weight: 100;
   line-height: 1.6;
   display: inline-block;
@@ -68,6 +68,11 @@ form#cartform{
 .columns a:hover {
   color: #3743a1 !important;
 }
+
+.columns .remove-from-cart:hover{
+  color: #8dabdd !important;
+}
+
 
 .columns .remove-from-cart {
   color: darkgrey;

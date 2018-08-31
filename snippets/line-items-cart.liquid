@@ -252,7 +252,6 @@ function hidePriceforGuardrail(){
       sum += parseFloat(warrantyPrice)
     });
     var totalPrice = $(".checkout-actions h2 .price").children().text().split("$")[1]
-    // debugger;
     var subTotal = parseFloat(totalPrice.replace(/,/g, '')) - sum
     var guardrailTotal = 0
     $(".line-item .title:contains('Toddler Guardrail')").each(function(){
